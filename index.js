@@ -60,3 +60,66 @@ let pelicula = {
 pelicula.año = 2023;
 
 console.log(pelicula);
+
+
+const milista=  [1,2,3,4,5]
+console.log(milista[0]);
+
+let numeros = [1,2,3,4,5];
+let numeroelim= numeros.pop()
+console.log(numeros);
+console.log(numeroelim);
+
+
+
+
+
+
+
+
+//Declara una variable, asigna un valor, cámbialo y muestra ambos valores en la consola.
+let  hola = 1;
+console.log("valor inicial", hola);
+hola = 2;
+console.log("valor final",hola);
+
+//Declara dos variables, asígnales valores numéricos, y muestra su suma en la consola.
+let valor1 = 10
+let valor2 = 20
+valor2 = valor1 + valor2;
+console.log(valor2);
+
+//Declara una constante con un valor de cadena, e intenta cambiar su valor (debería dar error).
+const cadena = "hola"
+//cadena = "nos vemos";
+console.log(cadena);
+
+//Declara una constante con un valor numérico, multiplica este valor por 2 y muestra el resultado en la consola.
+let mult = 2;
+mult = mult * 2;
+console.log(mult);
+
+//Crea un array de números, añade un número al final, y muestra el array en la consola.
+let arraynum = [1,2,3,4,5];
+arraynum.push(6);
+console.log(arraynum);
+
+//Crea un array de cadenas, elimina el último elemento y muestra el array en la consola.
+let arrcadena = ["sal","agua","azucar"]
+arrcadena.pop();
+console.log(arrcadena);
+
+//Crea un objeto con propiedades de nombre y edad, y muestra ambas propiedades en la consola.
+let object = {
+    nombre: "John",
+    edad: 20,
+}
+console.log(object);
+
+//Crea un objeto con propiedades de coche (marca, modelo), cambia el modelo y muestra el objeto actualizado en la consola.
+let objcoche = {
+    marca : "Chevrolet",
+    modelo: "Hilux",
+}
+objcoche.modelo = "spark";
+console.log(objcoche);
